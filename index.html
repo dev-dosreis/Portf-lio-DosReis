@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reiz Studio | QA + UI/UX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="#hero" aria-label="Inicio">Reiz Studio</a>
+        <nav class="site-nav" aria-label="Primaria">
+          <a class="site-nav__link" href="#sobre">Sobre</a>
+          <a class="site-nav__link" href="#projetos">Projetos</a>
+          <a class="site-nav__link site-nav__link--whatsapp" href="#contato"
+            >Contato</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="hero" class="hero" aria-labelledby="hero-title">
+        <div class="hero__ambient" aria-hidden="true">
+          <div class="hero__glow hero__glow--a"></div>
+          <div class="hero__glow hero__glow--b"></div>
+        </div>
+        <div class="container hero__layout">
+          <div class="hero__content">
+            <span class="eyebrow reveal" style="--delay: 0ms;">QA + UI/UX</span>
+            <h1 id="hero-title" class="reveal" style="--delay: 80ms;">
+              Eu desenho clareza e valido qualidade.
+            </h1>
+            <p class="subhead reveal" style="--delay: 140ms;">
+              Interfaces objetivas e produtos confiaveis, do primeiro detalhe ao
+              ultimo.
+            </p>
+          </div>
+          <div class="hero__actions">
+            <div class="cta-group reveal" style="--delay: 200ms;">
+              <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+              <a
+                class="btn btn-whatsapp"
+                href="https://wa.me/5500000000000"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="btn__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+                    <path
+                      fill="currentColor"
+                      d="M12.03 2.002c-5.514 0-9.997 4.482-9.997 9.997 0 1.763.46 3.48 1.333 4.994L2 22l5.2-1.33a9.934 9.934 0 0 0 4.83 1.24h.004c5.514 0 9.997-4.482 9.997-9.997 0-2.67-1.04-5.176-2.93-7.066-1.89-1.89-4.395-2.845-7.068-2.845zm0 18.29h-.004a8.3 8.3 0 0 1-4.228-1.163l-.304-.18-3.09.792.824-3.005-.198-.31a8.304 8.304 0 1 1 6.999 3.866zm4.57-6.22c-.25-.124-1.47-.725-1.7-.808-.23-.083-.4-.124-.57.125-.166.248-.656.807-.804.973-.146.165-.29.186-.54.062-.25-.124-1.053-.388-2.006-1.237-.742-.661-1.242-1.477-1.388-1.725-.145-.248-.015-.382.11-.506.11-.11.248-.29.373-.435.124-.145.166-.248.248-.414.083-.166.041-.31-.02-.434-.062-.124-.57-1.375-.782-1.883-.207-.5-.418-.435-.57-.442l-.486-.01c-.166 0-.435.062-.662.31-.228.248-.87.85-.87 2.07 0 1.22.89 2.4 1.013 2.565.124.165 1.752 2.68 4.246 3.757.594.256 1.06.41 1.422.525.597.19 1.14.164 1.57.1.48-.072 1.47-.6 1.676-1.178.207-.58.207-1.077.145-1.178-.062-.103-.228-.165-.477-.29z"
+                    />
+                  </svg>
+                </span>
+                WhatsApp
+              </a>
+            </div>
+            <ul class="chips reveal" style="--delay: 260ms;">
+              <li>Qualidade</li>
+              <li>Sistemas de Design</li>
+              <li>Microinteracoes</li>
+              <li>Consistencia</li>
+            </ul>
+            <div class="trust-loop reveal" style="--delay: 320ms;" aria-hidden="true">
+              <span class="trust-loop__label trust-loop__label--dev">dev</span>
+              <span class="trust-loop__label trust-loop__label--cliente"
+                >cliente</span
+              >
+              <svg class="trust-loop__svg" viewBox="0 0 360 160" role="presentation">
+                <defs>
+                  <linearGradient id="loopGradient" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0%" stop-color="#0f1115" stop-opacity="0.12" />
+                    <stop offset="50%" stop-color="#0f1115" stop-opacity="0.45" />
+                    <stop offset="100%" stop-color="#0f1115" stop-opacity="0.12" />
+                  </linearGradient>
+                </defs>
+                <path
+                  class="trust-loop__path"
+                  d="M36 80 C36 32 324 32 324 80 C324 128 36 128 36 80 Z"
+                />
+                <path
+                  class="trust-loop__flow trust-loop__flow--forward"
+                  d="M36 80 C36 32 324 32 324 80 C324 128 36 128 36 80 Z"
+                  stroke="url(#loopGradient)"
+                />
+                <path
+                  class="trust-loop__flow trust-loop__flow--reverse"
+                  d="M36 80 C36 32 324 32 324 80 C324 128 36 128 36 80 Z"
+                />
+                <circle class="trust-loop__node trust-loop__node--dev" cx="36" cy="80" r="6" />
+                <circle
+                  class="trust-loop__node trust-loop__node--cliente"
+                  cx="324"
+                  cy="80"
+                  r="6"
+                />
+                <circle class="trust-loop__core" cx="180" cy="80" r="4" />
+                <circle
+                  class="trust-loop__ping trust-loop__ping--dev"
+                  cx="36"
+                  cy="80"
+                  r="6"
+                />
+                <circle
+                  class="trust-loop__ping trust-loop__ping--cliente"
+                  cx="324"
+                  cy="80"
+                  r="6"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sobre" class="about" aria-labelledby="about-title">
+        <div class="container about__layout">
+          <div class="about__intro">
+            <span class="eyebrow reveal" style="--delay: 0ms;">Sobre</span>
+            <h2 id="about-title" class="reveal" style="--delay: 80ms;">
+              Co-criacao com rigor e simplicidade.
+            </h2>
+            <p class="subhead reveal" style="--delay: 140ms;">
+              QA e UI/UX para clareza, estabilidade e consistencia.
+            </p>
+            <p class="about__signature reveal" style="--delay: 200ms;">
+              Qualidade + UX + Consistencia
+            </p>
+          </div>
+          <div class="about__cards">
+            <article class="about-card reveal" style="--delay: 260ms;">
+              <h3>O que faco</h3>
+              <ul class="about-list">
+                <li>QA aplicado a fluxos reais.</li>
+                <li>UI/UX com direcao limpa.</li>
+                <li>Sistema visual para consistencia.</li>
+              </ul>
+            </article>
+            <article class="about-card reveal" style="--delay: 320ms;">
+              <h3>Como trabalho</h3>
+              <div class="process">
+                <div class="process__step">
+                  <span class="process__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <circle cx="11" cy="11" r="6" />
+                      <path d="M16 16l4 4" />
+                    </svg>
+                  </span>
+                  <div class="process__text">
+                    <span class="process__label">Diagnostico</span>
+                    <span class="process__desc">Contexto e riscos</span>
+                  </div>
+                  <span class="process__index">01</span>
+                </div>
+                <div class="process__step">
+                  <span class="process__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M12 20l7-7-3-3-7 7v3h3z" />
+                      <path d="M15 7l3 3" />
+                    </svg>
+                  </span>
+                  <div class="process__text">
+                    <span class="process__label">Desenho</span>
+                    <span class="process__desc">Fluxos e sistema</span>
+                  </div>
+                  <span class="process__index">02</span>
+                </div>
+                <div class="process__step">
+                  <span class="process__icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M5 12l4 4 10-10" />
+                    </svg>
+                  </span>
+                  <div class="process__text">
+                    <span class="process__label">Valido</span>
+                    <span class="process__desc">Testes e ajustes</span>
+                  </div>
+                  <span class="process__index">03</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="projetos" class="projects" aria-labelledby="projects-title">
+        <div class="container projects__layout">
+          <div class="projects__intro">
+            <span class="eyebrow reveal" style="--delay: 0ms;">Projetos</span>
+            <h2 id="projects-title" class="reveal" style="--delay: 80ms;">
+              Projetos com transparencia e honestidade
+            </h2>
+            <p class="subhead reveal" style="--delay: 140ms;">
+              Decisoes diretas para produto estavel.
+            </p>
+          </div>
+          <div class="projects__grid">
+            <article class="project-card reveal" style="--delay: 200ms;">
+              <div
+                class="project-card__media"
+                style="--project-image: url('assets/projects/fluxos-essenciais.svg');"
+                role="img"
+                aria-label="Interface do case Fluxos essenciais"
+              ></div>
+              <div class="project-card__body">
+                <span class="project-card__tag">Plataforma</span>
+                <h3>Fluxos essenciais</h3>
+                <p>QA + UI/UX + sistema visual.</p>
+                <a class="project-card__link" href="#">Ver case</a>
+              </div>
+            </article>
+            <article class="project-card reveal" style="--delay: 240ms;">
+              <div
+                class="project-card__media"
+                style="--project-image: url('assets/projects/experiencia-compacta.svg');"
+                role="img"
+                aria-label="Interface do case Experiencia compacta"
+              ></div>
+              <div class="project-card__body">
+                <span class="project-card__tag">Mobile</span>
+                <h3>Experiencia compacta</h3>
+                <p>Interfaces claras e validacao continua.</p>
+                <a class="project-card__link" href="#">Ver case</a>
+              </div>
+            </article>
+            <article class="project-card reveal" style="--delay: 280ms;">
+              <div
+                class="project-card__media"
+                style="--project-image: url('assets/projects/painel-operacional.svg');"
+                role="img"
+                aria-label="Interface do case Painel operacional"
+              ></div>
+              <div class="project-card__body">
+                <span class="project-card__tag">SaaS</span>
+                <h3>Painel operacional</h3>
+                <p>Consistencia e leitura rapida.</p>
+                <a class="project-card__link" href="#">Ver case</a>
+              </div>
+            </article>
+            <article class="project-card reveal" style="--delay: 320ms;">
+              <div
+                class="project-card__media"
+                style="--project-image: url('assets/projects/checkout-estavel.svg');"
+                role="img"
+                aria-label="Interface do case Checkout estavel"
+              ></div>
+              <div class="project-card__body">
+                <span class="project-card__tag">Ecommerce</span>
+                <h3>Checkout estavel</h3>
+                <p>Qualidade tecnica e UX direta.</p>
+                <a class="project-card__link" href="#">Ver case</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="contato" class="contact" aria-labelledby="contact-title">
+        <div class="container contact__layout">
+          <div class="contact__actions">
+            <div class="contact__cta reveal" style="--delay: 120ms;">
+              <a
+                class="btn btn-whatsapp"
+                href="https://wa.me/5500000000000"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="btn__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+                    <path
+                      fill="currentColor"
+                      d="M12.03 2.002c-5.514 0-9.997 4.482-9.997 9.997 0 1.763.46 3.48 1.333 4.994L2 22l5.2-1.33a9.934 9.934 0 0 0 4.83 1.24h.004c5.514 0 9.997-4.482 9.997-9.997 0-2.67-1.04-5.176-2.93-7.066-1.89-1.89-4.395-2.845-7.068-2.845zm0 18.29h-.004a8.3 8.3 0 0 1-4.228-1.163l-.304-.18-3.09.792.824-3.005-.198-.31a8.304 8.304 0 1 1 6.999 3.866zm4.57-6.22c-.25-.124-1.47-.725-1.7-.808-.23-.083-.4-.124-.57.125-.166.248-.656.807-.804.973-.146.165-.29.186-.54.062-.25-.124-1.053-.388-2.006-1.237-.742-.661-1.242-1.477-1.388-1.725-.145-.248-.015-.382.11-.506.11-.11.248-.29.373-.435.124-.145.166-.248.248-.414.083-.166.041-.31-.02-.434-.062-.124-.57-1.375-.782-1.883-.207-.5-.418-.435-.57-.442l-.486-.01c-.166 0-.435.062-.662.31-.228.248-.87.85-.87 2.07 0 1.22.89 2.4 1.013 2.565.124.165 1.752 2.68 4.246 3.757.594.256 1.06.41 1.422.525.597.19 1.14.164 1.57.1.48-.072 1.47-.6 1.676-1.178.207-.58.207-1.077.145-1.178-.062-.103-.228-.165-.477-.29z"
+                    />
+                  </svg>
+                </span>
+                WhatsApp
+              </a>
+              <a class="btn btn-outline" href="mailto:contato@reiz.studio">
+                Email
+              </a>
+            </div>
+            <div class="contact__links reveal" style="--delay: 180ms;">
+              <a href="#" class="contact__link">LinkedIn</a>
+              <a href="#" class="contact__link">GitHub</a>
+            </div>
+          </div>
+          <div class="contact__intro">
+            <span class="eyebrow reveal" style="--delay: 0ms;">Contato</span>
+            <h2 id="contact-title" class="reveal" style="--delay: 80ms;">
+              Vamos direcionar o seu negocio?
+            </h2>
+            <p class="subhead reveal" style="--delay: 140ms;">
+              whatsapp ou email para alinhar rapido
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

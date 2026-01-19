@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Mockup mobile minimal">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f8f3" />
+      <stop offset="100%" stop-color="#edf0e9" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)" />
+  <rect x="120" y="60" width="220" height="380" rx="36" fill="#ffffff" stroke="#e0e3db" />
+  <rect x="145" y="100" width="170" height="120" rx="18" fill="#f4f5f1" stroke="#e4e7df" />
+  <rect x="145" y="240" width="120" height="12" rx="6" fill="#e6e9e2" />
+  <rect x="145" y="262" width="150" height="12" rx="6" fill="#e6e9e2" />
+  <rect x="145" y="292" width="170" height="42" rx="12" fill="#f4f5f1" stroke="#e4e7df" />
+  <circle cx="230" cy="380" r="16" fill="#e6e9e2" />
+  <rect x="420" y="120" width="260" height="200" rx="26" fill="#ffffff" stroke="#e0e3db" />
+  <rect x="450" y="160" width="180" height="12" rx="6" fill="#e6e9e2" />
+  <rect x="450" y="188" width="140" height="12" rx="6" fill="#e6e9e2" />
+  <rect x="450" y="230" width="200" height="60" rx="16" fill="#f4f5f1" stroke="#e4e7df" />
+</svg>
