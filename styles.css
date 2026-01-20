@@ -713,9 +713,14 @@ h2 {
   stroke-width: 1;
 }
 
+.trust-loop__node--dev {
+  fill: var(--dot-accent);
+  stroke: rgba(93, 235, 166, 0.55);
+}
+
 .trust-loop__node--cliente {
-  fill: rgba(15, 17, 21, 0.32);
-  stroke: rgba(15, 17, 21, 0.25);
+  fill: var(--dot-accent-blue);
+  stroke: rgba(116, 200, 255, 0.55);
 }
 
 .trust-loop__ping {
@@ -728,8 +733,12 @@ h2 {
   animation: loop-ping 3s ease-out infinite;
 }
 
+.trust-loop__ping--dev {
+  stroke: rgba(93, 235, 166, 0.35);
+}
+
 .trust-loop__ping--cliente {
-  stroke: rgba(15, 17, 21, 0.28);
+  stroke: rgba(116, 200, 255, 0.35);
   animation-delay: 1.2s;
 }
 
